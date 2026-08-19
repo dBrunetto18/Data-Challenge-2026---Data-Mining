@@ -1,4 +1,4 @@
-# Data-Challenge-2026---Data-Mining
+# Data-Challenge-2026 - Data Mining
 Individual project for the Data Mining exam. The project is structured like a [Kaggle](https://www.kaggle.com/t/732bf4fb7b6c4cc2944a86844c299335) competition.
 
 ## About the data
