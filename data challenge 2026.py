@@ -9,14 +9,14 @@ from sklearn.pipeline import Pipeline
 from xgboost import XGBClassifier
 
 # GLOBAL CONFIGURATION
-BASE_PATH = Path("C:/University/DATA MINING/data challenge 2026")
+BASE_PATH = Path() # INSERT YOUR PATH TO THE DATASETS
 RANDOM_STATE = 42
-USE_AUGMENTED_DATA = False
+USE_AUGMENTED_DATA = False # If True, the augmented dataset will be used
 SCORING = 'neg_log_loss'
 
 N_TRIALS_RF = 50
 N_TRIALS_XGB = 50
-XGB_COMPLEXITY = True
+XGB_COMPLEXITY = True # If True, Optuna will tune more hyperparameters
 
 
 def load_data(base_path: Path, use_augmented: bool):
